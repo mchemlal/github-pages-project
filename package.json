@@ -1,0 +1,31 @@
+{
+  "name": "github-pages-project",
+  "version": "1.0.0",
+  "description": "Chat réalisé socket.io",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchemlal/github-pages-project.git"
+  },
+  "keywords": [
+    "chat",
+    "chat.io"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchemlal/github-pages-project/issues"
+  },
+  "homepage": "https://github.com/mchemlal/github-pages-project#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
