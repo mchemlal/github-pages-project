@@ -64,12 +64,12 @@ Chat application with Socket.io that allows you to share messages in real time b
     *it allows a a real time refresh of the application for each code modification*
 
 4. Open a terminal 
-    ```sh
+   ```sh
    cd github-pages-project/
    ```
 
 5. Run commands
- ```sh
+   ```sh
     npm install nodemon --save-dev
     npm start
    ``` 
