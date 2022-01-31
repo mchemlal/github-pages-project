@@ -81,7 +81,7 @@
 
 			// on ecoute event chat message
 			socket.on("received_message", (msg)=>{
-				//console.log(msg); // voir si on recoit bien le message dans la console 
+				
 				document.querySelector("#messages").innerHTML += `<p> ${msg.name} dit ${msg.message} </p>`;
 			})
 		};
